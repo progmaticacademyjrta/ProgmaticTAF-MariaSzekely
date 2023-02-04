@@ -1,0 +1,6 @@
+TC01: Homepage loaded test that loads the page and validates whether the header is displayed or not
+TC02: Homepage make appointment button is clickable or not
+TC03: login on Login screen with fault username and password, is show an error message
+TC04: make appointment is work
+TC05: profile page loaded successfully
+TC06: end to end test, login, fill appointment,log out to home page

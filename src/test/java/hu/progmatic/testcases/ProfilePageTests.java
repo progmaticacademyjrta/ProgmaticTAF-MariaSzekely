@@ -7,13 +7,12 @@ import hu.progmatic.pages.ProfilPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class ProfilPageTests extends DriverBaseTest {
+public class ProfilePageTests extends DriverBaseTest {
     HomePage homePage;
     LoginPage loginPage;
     ProfilPage profilPage;
-
-    @Test(description = "TC05: profil page loaded succesfully ", groups = "regression")
-    public void profilScreenLoadTest() throws InterruptedException {
+    @Test(description = "TC05: profile page loaded successfully", groups = "regression")
+    public void profileScreenLoadTest() throws InterruptedException {
         homePage = new HomePage(driver, wait);
         homePage.loadHomePage();
         homePage.menuBtnClick();
