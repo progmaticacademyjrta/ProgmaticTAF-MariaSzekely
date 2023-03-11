@@ -23,6 +23,7 @@ public class ProfilPage {
     }
     public void profileLogoutBtnVisible() {
         WebElement logoutBtn = wait.until(ExpectedConditions.elementToBeClickable(logoutBtnLocaton));
+
         Assert.assertTrue(logoutBtn.isDisplayed());
         System.out.println("Profile logout button is visible");
     }
